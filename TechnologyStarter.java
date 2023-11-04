@@ -3,41 +3,41 @@ class TechnologyStarter{
 		
 		System.out.println("Starting main method");
 		
-		Technology technology=new Technology();
-		Technology.displayInfo();
+		Technology technology=new Technology("inertent",);
+		technology.displayInfo();
 		
-		Technology technology1=new Technology();
-		Technology1.displayInfo();
+		Technology technology1=new Technology("software");
+		technology1.displayInfo();
 		
 		Technology technology2=new Technology();
-		Technology2.displayInfo();
+		technology2.displayInfo();
 		
 		Technology technology3=new Technology();
-		Technology3.displayInfo();
+		technology3.displayInfo();
 		
 		Technology technology4=new Technology();
-		Technology4.displayInfo();
+		technology4.displayInfo();
 		
 		Technology technology5=new Technology();
-		Technology5.displayInfo();
+		technology5.displayInfo();
 		
 		Technology technology6=new Technology();
-		Technology6.displayInfo();
+		technology6.displayInfo();
 		
 		Technology technology7=new Technology();
-		Technology7.displayInfo();
+		technology7.displayInfo();
 		
 		Technology technology8=new Technology();
-		Technology8.displayInfo();
+		technology8.displayInfo();
 		
 		Technology technology9=new Technology();
-		Technology9.displayInfo();
+		technology9.displayInfo();
 		
 		Technology technology10=new Technology();
-		Technology10.displayInfo();
+		technology10.displayInfo();
 		
 		Technology technology11=new Technology();
-		Technology11.displayInfo();
+		technology11.displayInfo();
 		
 	}
 }
