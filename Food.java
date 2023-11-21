@@ -1,7 +1,12 @@
-class Food{
+class Food extends Plant
+{
+	Food()
+	{
+		System.out.println("Starting from food");
+	}
 	
-	Food(){
-		
-		System.out.println("no-argument constructer in Food");
+	void eat()
+	{
+		System.out.println("running method method in food");
 	}
 }
