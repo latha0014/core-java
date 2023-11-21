@@ -1,6 +1,12 @@
-class Wood{
+class Wood 
+{
+	Wood()
+	{
+		System.out.println("Starting from Wood");
+	}
 	
-	Wood(){
-		System.out.println("no-argument constructer in WOod");
+	void making()
+	{
+		System.out.println("Starting from method  Wood");
 	}
 }
